@@ -14,7 +14,7 @@ class Input extends Component{
         return(
             <div className="field">
                 <label htmlFor={this.props.name}>{this.props.name}</label>
-                <input type={this.props.type} id={this.props.name} onChange={this.handleChange}/>
+                <input type={this.props.type} id={this.props.name} value={this.props.value} onChange={this.handleChange}/>
             </div>
         );
     };
