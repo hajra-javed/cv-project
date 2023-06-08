@@ -3,12 +3,10 @@ import { Component } from "react";
 class Input extends Component{
     constructor(props){
         super(props);
-        // this.state = '';
         this.handleChange = this.handleChange.bind(this);
     };
 
     handleChange(e){
-        // this.setState(e.value);
         this.props.onChange(this.props.name, e.target.value);
     }
 
