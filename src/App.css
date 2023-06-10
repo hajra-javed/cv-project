@@ -1,0 +1,9 @@
+.App{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    /* height: 100vh; */
+    background-color: white;
+}
+
