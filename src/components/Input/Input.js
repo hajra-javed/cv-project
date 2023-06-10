@@ -16,7 +16,7 @@ class Input extends Component {
             <div className="field">
                 {/* <label htmlFor={this.props.name}>{this.props.name}</label> */}
                 {(() => {
-                    if (this.props.type === 'date') {
+                    if (this.props.type === 'month') {
                         return <label htmlFor={this.props.name}>{this.props.name}</label>
                     }
                 })()}
